@@ -1,0 +1,77 @@
+.bg-skills {
+  font-size: 7rem;
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  top: 45px;
+  text-align: center;
+  color: #f4f4f4;
+  z-index: -10;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  padding: .5rem;
+  font-size: 1.2rem;
+  list-style-type: none;
+  font-weight: 200;
+}
+
+.skills-inner {
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+  width: 50%;
+}
+
+.familiarity {
+  text-align: right;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Medium Devices */
+@media (max-width: 800px) {}
+
+/* Small Devices */
+@media (max-width: 600px) {
+  .skills-container {
+    display: block;
+  }
+
+  .bg-skills {
+    font-size: 3rem;
+    top: 30px;
+  }
+
+  .skills-inner {
+    margin-bottom: 1rem;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  ul li {
+    padding: .2rem;
+    font-size: 1rem;
+    list-style-type: none;
+    font-weight: 200;
+  }
+}

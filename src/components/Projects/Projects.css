@@ -1,6 +1,24 @@
 .section-project {
-  margin-top: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+
+h2 {
   margin-bottom: 5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.bg-project {
+  font-size: 7rem;
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  top: 45px;
+  text-align: center;
+  color: #f4f4f4;
+  z-index: -10;
 }
 
 .column {
@@ -9,13 +27,16 @@
 }
 
 .column img {
-  max-width: 33.33%;
+  max-width: 33%;
+  margin: 1px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
   .column img {
-    max-width: 50%;
+    max-width: 49.50%;
   }
 }
 
@@ -23,5 +44,20 @@
 @media (max-width: 600px) {
   .column img {
     max-width: 100%;
+  }
+
+  .section-project {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .bg-project {
+    font-size: 3rem;
+    top: 30px;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
   }
 }

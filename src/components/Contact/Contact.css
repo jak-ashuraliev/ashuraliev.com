@@ -1,0 +1,29 @@
+.bg-contact {
+  font-size: 7rem;
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  top: 45px;
+  text-align: center;
+  color: #f4f4f4;
+  z-index: -10;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Medium Devices */
+@media (max-width: 800px) {}
+
+/* Small Devices */
+@media (max-width: 600px) {
+  .bg-contact {
+    font-size: 3rem;
+    top: 30px;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+  }
+}

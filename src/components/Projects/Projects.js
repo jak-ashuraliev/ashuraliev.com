@@ -6,9 +6,11 @@ import ProjectImages from "../../data/images.json";
 function Projects() {
   return (
     <section className="section-project">
+      <p className="bg-project">Projects</p>
+      <h2>projects.</h2>
       <div className="column">
-        {ProjectImages.map((id, img) => {
-          return <img key={id} src={img} alt="img" />;
+        {ProjectImages.map((imageSrc) => {
+          return <img src={imageSrc.img} alt="img" />;
         })}
       </div>
     </section>

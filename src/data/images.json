@@ -2,6 +2,47 @@
 
   {
     "id": 1,
-    "src": ""
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img01.jpg",
+    "alt": "Real Estate Website"
+  },
+  {
+    "id": 2,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img02.jpg",
+    "alt": "Home Estime Web App"
+  },
+  {
+    "id": 3,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img03.jpg",
+    "alt": "Infinity Golden Jewelry"
+  },
+  {
+    "id": 5,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img05.jpg",
+    "alt": "WebizaDesgin Concept"
+  },
+  {
+    "id": 4,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img04.jpg",
+    "alt": "Men's Clothing Web Desgin"
+  },
+  {
+    "id": 6,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img06.jpg",
+    "alt": "Nintex Re-design"
+  },
+  {
+    "id": 7,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img07.jpg",
+    "alt": "Purple Wifi Website"
+  },
+  {
+    "id": 8,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img08.jpg",
+    "alt": "Zaytuna Caterting Web Design"
+  },
+  {
+    "id": 9,
+    "img": "https://raw.githubusercontent.com/jak-ashuraliev/ashuraliev.com/master/src/images/img09.jpg",
+    "alt": "Adopt A Dog E-Commerce"
   }
 ]
