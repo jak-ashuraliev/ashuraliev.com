@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "../HeroSection/HeroSection.css";
-
 import profilePhoto from "../../images/jak_profile_grayscale.jpg";
 
 const HeroSection = () => {
