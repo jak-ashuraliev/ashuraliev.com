@@ -1,28 +1,9 @@
-.app-logo {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.logo-jak {
-  font-weight: 100;
-  background-color: #000;
-  padding: 4px 10px;
-  color: #fff;
-}
-
-h1 {
-  font-size: 6rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 h2 {
   font-size: 2rem;
 }
 
 img {
   max-width: 40%;
-  /* display: block; */
 }
 
 .d-flex {
@@ -77,18 +58,17 @@ img {
   .column img {
     max-width: 49.50%;
   }
+
+
+  .intro {
+    font-size: 1.5rem;
+  }
 }
 
 /* Small Devices */
 @media (max-width: 600px) {
   .d-flex {
     display: block;
-  }
-
-  h1 {
-    font-size: 2.4rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
   }
 
   img {
@@ -98,7 +78,7 @@ img {
 
   .intro {
     padding-left: 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 200;
   }
 

@@ -9,11 +9,22 @@
   z-index: -10;
 }
 
+.contact-p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
 
 /* MEDIA QUERIES */
 
 /* Medium Devices */
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
+  .bg-contact {
+    font-size: 5rem;
+    top: 30px;
+  }
+}
 
 /* Small Devices */
 @media (max-width: 600px) {
@@ -26,4 +37,13 @@
     margin-bottom: 3rem;
     font-size: 2.5rem;
   }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-p {
+    font-size: 1rem;
+  }
+
 }

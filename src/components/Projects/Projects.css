@@ -1,7 +1,6 @@
 .section-project {
   margin-top: 4rem;
   margin-bottom: 4rem;
-  overflow: hidden;
 }
 
 h2 {
@@ -24,6 +23,7 @@ h2 {
 .column {
   display: flex;
   flex-wrap: wrap;
+  align-self: center;
 }
 
 .column img {
@@ -33,17 +33,25 @@ h2 {
   filter: grayscale(100%);
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* MEDIA QUERIES */
+
+/* Medium Devices */
 @media (max-width: 800px) {
   .column img {
     max-width: 49.50%;
   }
+
+  .bg-project {
+    font-size: 5rem;
+    top: 30px;
+  }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Small Devices */
 @media (max-width: 600px) {
-  .column img {
+  .section-project .column img {
     max-width: 100%;
+    align-self: center;
   }
 
   .section-project {

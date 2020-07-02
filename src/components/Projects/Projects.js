@@ -5,7 +5,7 @@ import ProjectImages from "../../data/images.json";
 
 function Projects() {
   return (
-    <section className="section-project">
+    <section className="section-project" id="projects">
       <p className="bg-project">Projects</p>
       <h2>projects.</h2>
       <div className="column">

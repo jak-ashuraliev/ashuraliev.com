@@ -40,7 +40,12 @@ ul li {
 /* MEDIA QUERIES */
 
 /* Medium Devices */
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
+  .bg-skills {
+    font-size: 5rem;
+    top: 30px;
+  }
+}
 
 /* Small Devices */
 @media (max-width: 600px) {
