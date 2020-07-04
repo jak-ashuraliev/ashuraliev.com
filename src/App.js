@@ -3,9 +3,9 @@ import "./App.css";
 import HeroHeading from "./components/HeroHeading/HeroHeading";
 import Projects from "./components/Projects/Projects";
 import TechSkills from "./components/TechSkills/TechSkills";
-import Contact from "./components/Contact/Contact";
 import Logo from "./components/Logo/Logo";
 import HeroImage from "./components/HeroImage/HeroImage";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <HeroImage />
       <Projects />
       <TechSkills />
-      <Contact />
+      <ContactForm />
     </div>
   );
 }

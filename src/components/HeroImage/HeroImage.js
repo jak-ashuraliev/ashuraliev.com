@@ -13,7 +13,7 @@ function HeroImage() {
     >
       {(props) => (
         <div style={props}>
-          <div className="d-flex">
+          <div className="display-flex">
             <img src={profilePhoto} alt="Jak's profile" />
             <div className="intro-wrapper">
               <p className="intro">

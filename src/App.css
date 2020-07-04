@@ -18,6 +18,10 @@
   margin: 5rem auto;
 }
 
+h2 {
+  margin-bottom: 5rem;
+}
+
 @media (max-width: 600px) {
   .App {
     max-width: 90%;

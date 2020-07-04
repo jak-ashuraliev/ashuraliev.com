@@ -3,7 +3,7 @@
   position: relative;
   text-transform: uppercase;
   display: block;
-  top: 45px;
+  top: 65px;
   text-align: center;
   color: #f4f4f4;
   z-index: -10;
@@ -15,7 +15,7 @@
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   margin-bottom: 1rem;
 }
 
@@ -34,6 +34,7 @@ ul li {
 
 .familiarity {
   text-align: right;
+  margin-bottom: 0 !important;
 }
 
 
@@ -45,6 +46,27 @@ ul li {
     font-size: 5rem;
     top: 30px;
   }
+
+  .section-skills {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-skills {
+    font-size: 5rem;
+    top: 60px;
+  }
+
+  h2 {
+    margin-bottom: 5rem !important;
+    font-weight: bold !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+  }
+
 }
 
 /* Small Devices */
@@ -55,7 +77,12 @@ ul li {
 
   .bg-skills {
     font-size: 3rem;
-    top: 30px;
+    top: 45px;
+  }
+
+  .section-skills {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .skills-inner {
@@ -67,10 +94,12 @@ ul li {
   h2 {
     margin-bottom: 3rem;
     font-size: 2.5rem;
+    font-weight: bold !important;
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
   }
 
   ul li {

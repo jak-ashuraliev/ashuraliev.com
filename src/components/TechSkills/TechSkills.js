@@ -54,8 +54,8 @@ function TechSkills() {
             <li>- Linux</li>
           </ul>
         </div>
+        <p className="familiarity">* familiarity</p>
       </div>
-      <p className="familiarity">* familiarity</p>
     </section>
   );
 }

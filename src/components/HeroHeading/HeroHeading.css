@@ -1,16 +1,17 @@
 h1 {
-  font-size: 6rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  font-size: 6rem !important;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+  font-weight: 700 !important;
 }
 
 /* MEDIA QUERIES */
 
-
 /* Medium Devices */
 @media (max-width: 800px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4.5rem !important;
+    font-weight: 700 !important;
   }
 }
 
@@ -18,8 +19,9 @@ h1 {
 @media (max-width: 600px) {
 
   h1 {
-    font-size: 2.4rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    font-size: 2.4rem !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+    font-weight: 700 !important;
   }
 }
