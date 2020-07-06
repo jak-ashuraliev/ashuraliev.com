@@ -6,6 +6,7 @@ import TechSkills from "./components/TechSkills/TechSkills";
 import Logo from "./components/Logo/Logo";
 import HeroImage from "./components/HeroImage/HeroImage";
 import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <TechSkills />
       <ContactForm />
+      <Footer />
     </div>
   );
 }

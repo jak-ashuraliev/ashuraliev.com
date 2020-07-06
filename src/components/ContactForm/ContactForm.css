@@ -62,6 +62,20 @@ Label>span {
   font-size: 0.75rem;
 }
 
+.btn-submit {
+  padding: 8px 40px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 1.2rem !important;
+  border: 1px solid #000 !important;
+  border-radius: 0 !important;
+}
+
+.btn-submit:hover {
+  color: #999 !important;
+  background-color: #000 !important;
+}
 
 /* MEDIA QUERIES */
 
@@ -102,12 +116,12 @@ Label>span {
 
   .section-contact {
     margin-top: 0 !important;
-    margin-bottom: 5rem !important;
+    margin-bottom: 2rem !important;
   }
 
   h2 {
     margin-bottom: 3rem !important;
-    font-size: 2.5rem;
+    font-size: 2rem !important;
     font-weight: bold !important;
   }
 
@@ -122,5 +136,14 @@ Label>span {
   Form {
     width: 100%;
   }
+
+  .btn-submit {
+    width: 100% !important;
+  }
+
+  .alert-success {
+    font-size: 0.75rem !important;
+  }
+
 
 }

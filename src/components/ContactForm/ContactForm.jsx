@@ -169,7 +169,7 @@ class ContactForm extends Component {
               placeholder="Enter message"
             />
           </FormGroup>
-          <Button variant="primary" type="submit">
+          <Button className="btn-submit" variant="primary" type="submit">
             Send
           </Button>
         </Form>

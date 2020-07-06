@@ -1,0 +1,41 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.social-icons a {
+  padding: 2rem;
+}
+
+.fab {
+  font-size: 3rem;
+  color: #555;
+  transition: all 0.1s ease-in;
+}
+
+.fab:hover {
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .social-icons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-icons a {
+    padding: 1rem;
+  }
+
+  .fab {
+    font-size: 2rem;
+  }
+
+  small {
+    width: 70%;
+  }
+
+}
