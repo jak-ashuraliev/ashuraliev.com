@@ -11,39 +11,41 @@ function TechSkills() {
         <div className="skills-inner">
           <h3>Languages</h3>
           <ul className="languages">
-            <li>- HTML5</li>
-            <li>- CSS3</li>
             <li>- JavaScript</li>
             <li>- Java</li>
             <li>- Python *</li>
             <li>- PHP *</li>
             <li>- MySQL</li>
+            <li>- Sightly(HTL)</li>
+            <li>- HTML5</li>
+            <li>- CSS3</li>
           </ul>
         </div>
         <div className="skills-inner">
           <h3>Frameworks / Libraries</h3>
           <ul className="languages">
+            <li>- Angular</li>
+            <li>- Angular Material</li>
             <li>- React</li>
             <li>- Node.js</li>
-            <li>- Express.js</li>
-            <li>- MongoDB</li>
+            <li>- Express.js*</li>
+            <li>- MongoDB*</li>
             <li>- jQuery</li>
             <li>- Bootstrap</li>
             <li>- Flask *</li>
-            <li>- Vue.js *</li>
+            <li>- Vue.js</li>
+            <li>- Selenium</li>
           </ul>
         </div>
         <div className="skills-inner">
           <h3>Software / Tools</h3>
           <ul className="languages">
+            <li>- Adobe Experience Manager (AEM)</li>
             <li>- Adobe Photoshop</li>
             <li>- Adobe XD</li>
             <li>- Adobe InDesign *</li>
-            <li>- Git / Github / Gitflow</li>
-            <li>- Android Studio</li>
-            <li>- Visual Studio</li>
-            <li>- Developer Tool</li>
-            <li>- npm</li>
+            <li>- Jira</li>
+            <li>- Git / Github / Gitlab</li>
           </ul>
         </div>
         <div className="skills-inner">

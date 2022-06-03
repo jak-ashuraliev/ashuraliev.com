@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "../../components/HeroImage/HeroImage.css";
-import profilePhoto from "../../images/jak_profile_grayscale.jpg";
+import profilePhoto from "../../images/jak-profile-2021.jpg";
 import { Spring } from "react-spring/renderprops";
 
 function HeroImage() {

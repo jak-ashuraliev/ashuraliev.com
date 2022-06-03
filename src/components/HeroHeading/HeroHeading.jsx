@@ -12,7 +12,7 @@ const HeroHeading = () => {
     >
       {(props) => (
         <div style={props}>
-          <h1>I design &amp; build responsive UI for the web.</h1>
+          <h1>I design &amp; build UI for the web.</h1>
         </div>
       )}
     </Spring>
